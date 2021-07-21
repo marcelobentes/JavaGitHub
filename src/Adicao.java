@@ -31,7 +31,7 @@ public class Adicao {
 		// exibe a mensagem com o resultado.
 		String mensagem = String.format("Resuldado da soma é %s.",soma);
 		
-		JOptionPane.showMessageDialog(null, mensagem);
+		JOptionPane.showMessageDialog(null, mensagem, "Resultado",JOptionPane.INFORMATION_MESSAGE);
 
 	}
 
